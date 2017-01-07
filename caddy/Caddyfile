@@ -1,5 +1,5 @@
 # Docs: https://caddyserver.com/docs/caddyfile
-0.0.0.0:80
+0.0.0.0:443
 root /var/www/public
 fastcgi / php-fpm:9000 php {
     index index.php
@@ -15,4 +15,4 @@ log /var/log/caddy/access.log
 errors /var/log/caddy/error.log
 # Uncomment to enable TLS (HTTPS)
 # Change the first list to listen on port 443 when enabling TLS
-#tls self_signed
+tls self_signed
