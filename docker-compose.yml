@@ -153,8 +153,8 @@ services:
         ports:
             - "5432:5432"
         environment:
-            POSTGRES_DB: homestead
-            POSTGRES_USER: homestead
+            POSTGRES_DB: gymforgym
+            POSTGRES_USER: gymforgym
             POSTGRES_PASSWORD: secret
 
 ### PostgreSQL PostGis Container ############################
@@ -166,8 +166,8 @@ services:
         ports:
             - "5432:5432"
         environment:
-            POSTGRES_DB: homestead
-            POSTGRES_USER: homestead
+            POSTGRES_DB: gymforgym
+            POSTGRES_USER: gymforgym
             POSTGRES_PASSWORD: secret
 
 ### Neo4j Container #########################################
